@@ -1,0 +1,22 @@
+.order-card {
+  width: 75%;
+  margin: 0 auto 1em auto;
+  border: 3px solid black;
+  border-radius: 15px;
+  padding: 1em;
+}
+
+.card-head {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-data {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.card-data p {
+  flex: 1 0 30%;
+}

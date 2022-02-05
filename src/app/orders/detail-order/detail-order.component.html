@@ -1,0 +1,15 @@
+<div class="order-card">
+  <div class="card-head">
+    <h4>{{order.partName}}</h4>
+    <h4>Arrives {{ daysTill }}</h4>
+  </div>
+  <hr />
+  <div class="card-data">
+    <p>Vehicle: {{ order.vehicle }}</p>
+    <p>Vendor: {{ order.vendor }}</p>
+    <p>Part Number: {{ order.partNumber }}</p>
+    <p>Date Expected: {{ order.dateExpected | date: "MM/dd/yyyy" }}</p>
+    <p>Date Ordered: {{ order.dateOrdered | date: "MM/dd/yyyy" }}</p>
+    <p></p>
+  </div>
+</div>

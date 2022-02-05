@@ -1,0 +1,23 @@
+h1 {
+  text-align: center;
+}
+
+hr {
+  width: 75%;
+}
+
+.link-bar {
+  display: flex;
+  justify-content: center;
+}
+
+.link-bar a {
+  display: inline-block;
+  margin: 0 2em;
+  color: black;
+  text-decoration: none;
+}
+
+.link-bar a:hover {
+  font-weight: bold;
+}
